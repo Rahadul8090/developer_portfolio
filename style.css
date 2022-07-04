@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 39px;
+}
+
 .name-color {
     color: orange;
 }
 
-section {
+.ok {
     display: flex;
     margin-bottom: 200px;
 }
@@ -44,4 +48,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.ok-bro {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Expayanc-page {
+    box-shadow: 10px 10px 40px gray;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#full-stack {
+    border-left: 10px solid rgb(192, 0, 0);
+}
+
+#baby-web {
+    border-left: 10px solid blue;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+    margin-top: 200px;
 }
